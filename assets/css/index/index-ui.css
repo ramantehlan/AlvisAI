@@ -1,0 +1,180 @@
+html{
+	background-image:url(../../images/index/background/0.jpg);
+    background-size:100%;
+}
+
+#body{
+	 margin-top:60px;
+}
+
+.right_box_holder{width:250px;
+                   float:right;
+}
+
+#signup_box{margin-top:10px;
+	        width:250px;
+          background-color:rgb(240,240,240);
+          background:linear-gradient(rgb(255,255,255) 0% , rgb(235,235,235) 100% );
+}
+
+#signin_box{background-color:rgb(255,255,255);
+	        width:250px;
+}
+
+.top_of_pop{background-color:white;
+             border-radius:5px 5px 0px 0px;
+}
+
+.top_of_pop{color:rgb(160,160,160);
+
+}
+
+.top_of_pop h2{font-size:14px;
+               font-weight:normal;
+}
+
+.comman_box{box-shadow:0px 0px 8px rgb(80,80,80);}
+
+/* this is comman css for the sign up and sign in */
+
+
+
+.keep{float:left;
+      padding-top:10px;
+      color:rgb(150,150,150);
+      font-size:11px;
+
+   }
+
+.keep_box{margin-top:0px;
+          float:left;
+          margin-right:5px;
+}
+
+.forgot_something_link{margin-top:10px;
+                       float:right;
+                       text-decoration:none;
+                       font-size:11px;
+                       color:rgb(150,150,150);
+}
+
+
+/************************
+this is for the middle one
+8*************************/
+
+#about{float:left;
+       width:500px;
+       margin-left:200px;
+       margin-top:20px;
+        border-radius:2px;
+        text-shadow:1px 1px 2px rgb(30,30,30);
+}
+
+.app{width:120px;
+     cursor:pointer;
+     margin-top:5px;
+}
+
+#about_heading{font-size:31px;
+               color:white;
+                font-weight:bold;
+             }
+
+#about_body{font-size:17px;
+                color:rgb(240,240,240);
+                margin-top:10px;
+                word-spacing:1.3px;
+                margin-left:10px;
+}
+
+.coming_soon{color:white;
+              font-size:15px;
+              margin-top:80px;
+            }
+
+/*****************
+ this is bottom menu
+***************/
+.menu{
+      height:25px;
+      line-height:23px;
+      background-color:rgba(0,0,0,0.2);
+      position:fixed;
+      top:100%;
+      margin-top:-40px;
+      border-radius:1px;
+      font-size:11px;
+      color:white;
+      padding-left:5px;
+      padding-right:5px;
+      transition:background-color 0.3s;
+      -webkit-transition:background-color 0.3s;
+      -moz-transition:background-color 0.3s;
+}
+
+.menu:hover{background-color:rgba(0,0,0,0.9);}
+
+.menu a{margin-left:7px;
+       text-decoration:none;
+       color:white;
+}
+.menu a:hover{text-decoration:underline;}
+
+.site_lock{width:100px;
+          cursor:pointer;
+           position:fixed;
+           top:80%;
+           margin-left:900px;
+      margin-top:-200px;
+
+}
+
+
+/***********************************8
+this is for  the language pop
+8*****************************************/
+
+#language_box{width:500px;
+            height:360px;
+              position:fixed;
+              top:50%;
+              left:50%;
+              margin-left:-250px;
+              margin-top:-200px;
+              z-index:101;
+              display:none;
+}
+
+
+.lang_div{width:80px;
+          height:20px;
+          line-height:20px;
+          margin-top:10px;
+          margin-left:8px;
+          text-align:center;
+          float:left;
+
+          border-bottom:1px solid transparent;
+}
+.selected_lang{
+  color:rgb(20,40,90);
+  border-bottom:1px solid rgb(20,40,90);}
+
+.lang_div:hover{border-bottom:1px solid rgb(20,40,90);
+color:rgb(20,40,90);
+}
+
+.lang_div:hover < .lang_a{color:rgb(40,70,90);}
+
+.lang_a{
+  text-decoration:none;
+  color:rgb(90,130,170);
+}
+
+.or_tag{
+         text-align:center;
+         font-size:12px;
+         color:rgb(210,210,210);
+}
+

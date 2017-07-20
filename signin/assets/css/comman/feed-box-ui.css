@@ -1,0 +1,520 @@
+
+/*
+this is feed box of user
+*/
+
+.other_option_bar_fix{line-height:30px;
+                    text-align:right;
+                    width:100%;
+                    height:25px;
+                    color:rgb(160,160,160);
+}
+
+.delete_button_of_post{
+                        margin-right:10px; 
+                        cursor:pointer;
+                        border-radius:3px;
+                        height:25px;
+                        width:80px;
+                        line-height:25px; 
+                        text-align:center;
+                        float:right;
+
+   }
+
+.delete_button_of_post:hover{
+                            background-color:rgb(44, 44, 113);
+                            background-color:rgba(44, 44, 113, 0.8);
+                             color:white;
+}
+
+.update_pre{
+     font-size:15px;
+     font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+      word-wrap:break-word;
+     margin:0px;
+    width:100%;
+   }
+
+  .single_update{
+    font-weight:bold;
+    text-shadow:2px 2px 1px rgb(245,245,245);
+  }
+
+.feed_box{margin-top:20px;
+          padding-left:40px;
+          padding-right:40px;
+
+ }
+
+.profile_picture_of_feeder{float:left;
+                           height:50px;
+                           width:50px;
+                           border-radius:5px;
+                           overflow:hidden;
+                           border:3px solid white;
+}
+
+.profile_picture_of_feeder a{text-decoration:none;
+       border:none;
+}
+
+.profile_picture_of_feeder img{width:50px; 
+                               height:50px;
+                               border:0px;
+}
+
+.feed_box_body{margin-left:70px;
+               background-color:white;
+               border-radius:5px;
+
+}
+
+/**
+ this is for the top of feed
+**/
+
+.feed_box_body_top{height:30px;
+                    line-height:30px;
+                   padding-left:20px;
+                  background-size:16px 16px;
+                background-position:10px 50%;
+                background-repeat:no-repeat;
+                background-image:url("../../images/comman/feed_box/user.png");
+
+  }
+
+.feed_box_body_top_name{font-size:15px;
+                         float:left;
+                         max-width:340px;
+                         margin-left:10px;
+                         font-family:arial;
+                         background-color:rgb(245,245,245);
+                         box-shadow:inset 0px 0px 3px rgb(230,230,230);
+                         border-radius:5px;
+                         padding-left:5px;
+                         padding-right:5px;
+                         margin-top:2.5px;
+                         height:25px;
+                         line-height:25px;
+
+
+                         
+}
+.user_at_tag{font-size:14px;
+              color:rgb(140,140,140);
+}
+
+.feed_box_body_top_name a{text-decoration:none;
+             color:rgb(30,50,80);
+             font-weight:bold;
+ }
+
+ .feed_box_body_top_about{float:left;
+                          margin-left:5px;
+                          color:rgb(60,140,190);
+                          text-transform:capitalize;
+ }
+
+.feed_box_body_top_time{float:right;
+                        margin-right:10px;
+                          color:rgb(120,120,120);
+                          cursor:default;
+}
+.img_of_clock{
+                height:16px;
+                width:16px;
+                float:left;
+                margin-top:7px;
+                margin-right:5px;
+                background-size:16px 16px;
+                background-position:50% 50%;
+                background-repeat:no-repeat;
+                background-image:url("../../images/comman/feed_box/clock.png");
+}
+
+
+
+  /**
+ this is for the body of feed
+**/
+
+ .feed_box_body_content{padding:10px;
+                        padding-left:20px;
+                        padding-bottom:20px;
+                        word-wrap:break-word;
+                        font-size:16px;
+                        font-family:sans-serif;
+ }
+
+.feed_box_body_content_img_holder{
+
+                  margin-top:15px;
+                  margin-bottom:10px;
+                  height:300px;
+                  max-width:100%;
+                  padding:5px;
+                  
+                  overflow:hidden;
+
+                   border-bottom:1px solid rgb(230,230,230);
+
+                 text-align:center;
+                 cursor:pointer;
+                 cursor:-zoom-in;
+                 cursor:-o-zoom-in;
+                 cursor:-moz-zoom-in;
+                 cursor:-webkit-zoom-in;
+                 border-radius:5px 5px 0px 0px;
+
+
+                background-color:rgb(250,250,250);
+                background-color:rgba(250,250,250,0.6);
+}             
+
+ .upload_img{
+             height:300px;
+             max-width:100%;
+             border-radius:5px 5px 5px 5px ;
+             margin-left:0px;
+             border:0px;
+
+            box-shadow:0px 0px 10px 2px  rgb(220,220,220);
+            box-shadow:0px 0px 10px 2px  rgba(220,220,220,0.8);
+ }
+
+
+/**
+ this is for the bottom of feed
+**/
+
+
+
+.feed_box_body_bottom{height:30px;
+                      line-height:30px;
+                      border-radius:0px 0px 5px 5px;
+                      border-top:1px solid rgb(245,245,245);
+                      cursor:pointer;
+
+}
+
+.feed_box_body_bottom:hover{background-color:rgb(250,250,250);
+                      border-top:1px solid rgb(230,230,230);
+                  }
+
+.feed_box_body_bottom_selected{
+                      height:30px;
+                      line-height:30px;
+                      background-color:rgb(250,250,250);
+                      border-top:1px solid rgb(230,230,230);
+                      cursor:pointer;
+}
+
+
+.feed_box_body_bottom_icon{width:30px;
+                           height:30px;
+                           float:left;
+                           margin-left:10px;
+                           background-size:16px 16px;
+                           background-position:50% 50%;
+                           background-repeat:no-repeat;
+}
+
+.like_button{background-image:url("../../images/comman/feed_box/likes.png");
+}
+
+.comment_button{background-image:url("../../images/comman/feed_box/comments.png");
+}
+
+.feed_box_body_bottom_information{float:left;
+                                   color:rgb(160,160,160);
+                                   width:50px;
+}
+
+
+/*
+ this is for the feed of comment and like
+*/
+
+.feed_box_body_other{border-radius:0px 0px 5px 5px;
+                     background-color:rgb(255,255,255);
+                     border-top:1px solid rgb(230,230,230);
+                     padding:10px;
+                     display:none;
+
+}
+
+
+.likes_of_feed_box{
+                   height:34px;
+                   margin-top:10px;
+
+ }
+
+.like_unlike_button{width:34px;
+                      height:34px;
+                      background-repeat:no-repeat;
+                      background-position:50% 50%;
+                      background-size:25px 25px;
+                      float:left;
+                      cursor:pointer;
+}
+
+.like_action_button{
+                      background-image:url("../../images/comman/feed_box/likes.png");
+                    }
+
+.unlike_action_button{
+                      background-image:url("../../images/comman/feed_box/dislikes.png");
+}
+
+.images_of_likers{
+                     height:34px;
+                     width:92%;
+                     float:right;
+}
+
+.images_of_likers a{text-decoration:none;
+                  border:0px;
+                  margin-left:10px;
+                  float:left;
+ }
+
+ .images_of_likers img{width:32px;
+                        height:32px;
+                        border-radius:2px;
+                        border:0px;
+                        float:left;
+ }
+
+.see_all_likes{float:right;
+               height:30px;
+               width:60px;
+               margin-top:1px;
+               margin-right:5px;
+               border:1px solid rgb(240,240,240);
+               color:rgb(120,120,120);
+               border-radius:5px;
+               line-height:30px;
+               text-align:center;
+               cursor:pointer;
+}
+
+.see_all_likes:hover{
+  border:1px solid rgb(230,230,230);
+  background-color:rgb(240,240,240);
+                      
+}
+
+.no_likes_content{height:34px;
+                  line-height:34px;
+                  padding-left:25px;
+                  font-size:13px;
+                  color:rgb(200,200,210);
+                  float:left;
+}
+
+/*
+
+this is for the comment area 
+
+*/
+
+.comment_of_feed_box{margin-top:20px;
+	                  max-height:500px;
+	                  overflow:hidden;
+	                  overflow-y:auto;
+
+                    margin-left:-10px;
+                    margin-right:-10px;
+                    padding-left:5px;
+                    padding-right:5px;
+                    padding-bottom:5px;
+
+                     border-top:1px solid rgb(230,230,230);
+                     border-bottom:1px solid rgb(230,230,230);
+                      background-color:rgb(250,250,250);
+
+}
+
+.comment_shadow{              
+                 border:3px solid white;
+                 box-shadow:0px 0px 3px 1px rgb(240,240,240);
+               }
+
+.my_comment_of_feed_box{height:55px;
+                        margin-top:5px;
+                        margin-left:5px;
+                        margin-right:5px;
+
+}
+
+.comment_of_friends_box{min-height:40px;
+                        margin-top:10px;
+                        margin-bottom:10px;
+                        margin-right:5px;
+                        
+
+}
+
+.commenter_photo{width:40px;
+                 height:40px;
+                 border-radius:3px;
+                 overflow:hidden;
+                 float:left;
+                 margin-left:5px;
+
+
+            }
+
+.main_comment{margin-left:10px;
+              color:rgb(30,30,30);
+              font-size:14px;
+              line-height:15px;
+              margin-top:1px;
+}
+
+
+
+.commenter_photo a{text-decoration:none;
+            border:0px;
+}
+
+.commenter_photo img{border:0px;
+                       height:40px;
+                       width:40px;
+}
+
+.comment_by_the_commenter{margin-left:60px;
+                          min-height:40px;
+                          border-radius:3px;
+                         color:rgb(120,120,120);
+                          padding-top:2px;
+                        background-color:white;
+}
+
+.name_of_commenter_in_comment_box{float:left;
+                                  font-size:15px;
+                                  line-height:15px;
+                                  max-width:340px;
+                                  font-family:arial;
+                                  height:16px;
+                                  
+                                  
+                                  margin-left:2px;
+                                  margin-right:5px;
+                                  
+                                  text-transform:capitalize;
+                                  color: rgb(30,50,80);
+}
+
+
+.name_of_commenter_in_comment_box a{text-decoration:none; 
+                                    color: rgb(30,90,160);
+}
+
+.option_of_comment{margin-top:10px;
+                font-family:arial;
+                color:rgb(160,160,160);
+                height:20px;
+                line-height:20px;
+                padding-right:5px;
+                
+              /*border-top:1px solid rgb(230,230,230);
+              /*background-color:rgb(250,250,250);*/
+              margin-left:-3px;
+              margin-right:-3px;
+}
+
+
+.time_of_comment{float:right;
+                 cursor:default;
+                 color:rgb(210,210,210);
+}
+.time_of_comment:hover{color:rgb(90,90,90);}
+
+/*.img_of_clock_on_comment{
+                height:16px;
+                width:16px;
+                float:left;
+                margin-right:5px;
+                background-size:16px 16px;
+                background-position:50% 50%;
+                background-repeat:no-repeat;
+                background-image:url(../../images/comman/feed_box/clock.png);
+              }
+*/
+
+.list_option_of_comment{float:left;
+                        margin-left:10px;
+                        color:rgb(210,210,210);
+}
+
+.list_option_of_comment:hover{cursor:pointer;
+                              color:rgb(90,90,90);
+}
+
+.comment_by_the_my{margin-left:60px;
+                          min-height:40px;
+                          border-radius:3px;
+                          padding:5px;
+                         color:rgb(120,120,120);
+
+}
+
+.comment_input{
+               margin-top:5px;
+}
+
+.rule_of_comment{font-size:11px;
+                 margin-left:5px;
+                 margin-top:2px;
+                 color:rgb(200,200,200);
+ }
+
+.asker_name{background-color:rgb(220,240,255);
+            color:rgb(140,140,140);
+            padding-left:5px;
+            padding-right:5px;
+            padding-bottom:3px;
+            font-size:12px;
+            border-radius:3px;
+
+}
+
+.asker_name:hover{background-color:rgb(200,220,235);
+                  color:rgb(70,70,70);
+}
+
+/*****
+this is for the comment
+**/
+
+.comment_msg{height:30px;
+             margin-top:10px;
+             margin-bottom:-10px;
+             border-radius:5px;
+             text-align:center;
+             line-height:30px;
+             font-size:14px;
+             color:rgb(160,160,160);
+}
+
+
+.all_comment_button{margin-top:5px;
+                    margin-bottom:5px;
+                  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

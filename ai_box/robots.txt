@@ -1,0 +1,8 @@
+User-agent: *
+Crawl-delay: 1
+Disallow: /admin
+Disallow: /README
+Disallow: /version.txt
+
+
+

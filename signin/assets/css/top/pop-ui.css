@@ -1,0 +1,97 @@
+#update_box{width:500px;
+             position:fixed;
+             top:50%;
+             left:50%;
+             margin-left:-250px;
+             margin-top:-250px;
+             z-index:101;
+             overflow:hidden;
+             display:none;
+}
+
+.update_body_of_pop{
+	         padding:10px;
+}
+
+.row_of_update{
+               height:30px;
+               line-height:30px;
+               padding-left:10px;
+               padding-right:10px;
+               font-size:13px;
+	         color:rgb(130,130,130);
+               
+
+}
+
+.select_of_update{
+	         width:70%;
+	         float:right;
+	         color:rgb(130,130,130);
+	         cursor:pointer;
+}
+
+
+
+.pop_check_box{      background-position:0% 50%;
+                     background-repeat:no-repeat;   
+                     height:30px;
+                     width:30px;
+                     cursor:pointer;
+                     margin-right:280px;
+                     float:right;
+                     background-size:30px 30px;}
+
+.update_textarea{width:90%;
+	             margin-left:5%;
+                 border:1px solid rgb(230,230,230);
+                 border-radius:5px;
+                 margin-top:20px;
+                 height:120px;
+                 resize:none;
+                 padding:5px;
+                 font-size:14px;
+}
+
+.update_file_upload{width:70%;
+	                float:right;
+                   /* border:1px solid rgb(230,230,230);
+                    border-radius:3px; */
+                    padding:5px;
+ }
+
+.update_button{float:right;
+               margin-top:10px;
+               margin-right:10px;
+
+}
+
+
+
+.update_uploading_box{width:400px;
+                height:200px;
+                position:fixed;
+                top:50%;
+                left:50%;
+                margin-left:-200px;
+                margin-top:-100px;
+                border-radius:5px;
+                background-color:white;
+                text-align:center;
+                line-height:80px;
+                font-size:14px;
+                display:none;
+                z-index:102;
+}
+
+
+.notic_of_not_public{float:right;
+                     width:70%;
+                     height:0%;
+                     text-align:left;
+                     font-size:11px;
+                     margin-top:-2px;
+                     color:rgb(210,210,210);
+
+}
+

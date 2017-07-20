@@ -1,0 +1,112 @@
+.top_bar{
+	      position:fixed;
+         height:50px;
+        line-height:50px;
+         width:100%;
+         top:0%;
+         left:0%;
+         z-index:101;
+         background-color:white;
+       /*  box-shadow:0px 0px 10px rgb(210,180,220);*/
+
+}
+
+.main_top_bar{
+	            width:1000px;
+	            margin:0px auto;
+	            width:1000px;
+                height:100%;
+}
+
+.heading{font-size:13px;
+         float:left;
+         height:30px;
+         line-height:30px;
+         margin-top:10px;
+         border-radius:5px;
+         padding:10px;
+         padding-top:0px;
+         padding-bottom:0px;
+         background-color:rgb(39,40,34);
+         color:white;
+         font-family:Corbel;
+ }
+
+
+.top_menu{height:30px;
+      float:right;
+      margin-top:10px;
+      width:300px;
+
+}
+
+.top_menu_options{height:28px;
+               line-height:28px;
+              float:left;
+              margin-left:5px;
+              margin-right:5px;
+              padding:8px;
+              padding-top:0px;
+              padding-bottom:0px;
+              border-radius:5px;
+              border:1px solid transparent;
+
+ }
+
+ .top_menu_options:hover{border:1px solid rgb(0,0,0);
+                 color:black;
+ }
+
+.selected_top_menu_option{height:28px;
+               line-height:28px;
+              float:left;
+              margin-left:5px;
+              margin-right:5px;
+              padding:8px;
+              padding-top:0px;
+              padding-bottom:0px;
+              border-radius:5px;
+             border:1px solid rgb(0,0,0);
+                 color:black;}
+
+
+
+/*******************************88
+/***********************************888
+this is to show profile box of user
+******************************************/
+
+.user_id_box{width:250px;
+             height:40px;
+             float:right;
+             background-color:rgb(155,100,155);
+             color:white;
+             margin-top:5px;
+             border-radius:3px;
+             margin-left:70px;
+}
+
+.profile_image_holder{
+                        float:left;
+                        overflow:hidden;
+                        height:32px;
+                        width:32px;
+                        margin-top:4px;
+                        margin-left:4px;
+                        border-radius:3px;
+                        background-color:white;
+
+}
+
+
+.name_of_person{height:32px;
+                line-height:32px;
+                margin-top:4px;
+                margin-left:42px;
+                font-size:14px;
+                overflow:hidden;
+                overflow:hidden;
+                white-space:nowrap;
+                text-overflow:ellipsis;
+                 text-transform:capitalize;
+ }

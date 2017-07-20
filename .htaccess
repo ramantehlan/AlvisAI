@@ -1,0 +1,58 @@
+RewriteOptions inherit
+ErrorDocument 404 /server/default_pages/error_404.php
+
+IndexIgnore *
+
+
+<IfModule mod_rewrite.c>
+
+  RewriteEngine On
+  RewriteBase /
+
+
+  RewriteRule ^error/([0-9a-zA-z]+) index.php?error=$1 [NC,L]
+
+  #rewrite the localhost/project/index.php?page=x
+  RewriteRule ^site/([0-9a-zA-z]+) project/index.php?page=$1 [NC,L]
+  RewriteRule ^site project/index.php [NC,L]
+
+  RewriteRule ^join/error/([a-zA-Z_]+) signup/index.php?error=$1 [NC,L]
+  RewriteRule ^join signup/index.php [NC,L]
+  RewriteRule ^register signup/upload_information.php [NC,L]
+  
+  RewriteRule ^board signin/index.php [NC,L]
+  RewriteRule ^settings/([a-zA-Z]+) signin/settings.php?page=$1 [NC,L]
+  RewriteRule ^settings signin/settings.php [NC,L]
+  RewriteRule ^questions signin/questions.php [NC,L] 
+  RewriteRule ^logout signin/logout.php [NC,L]
+
+#this is used in hashtag
+  RewriteRule ^hashtag/([a-zA-Z0-9_]+) signin/hash.php?tag=$1 [NC,L]
+  
+
+#this is used in notification
+  RewriteRule ^get/([a-zA-Z_]+)/([0-9]+)$ signin/notification_link.php?link_type=$1&link_no=$2 [NC,L]
+  RewriteRule ^get/([a-zA-Z_]+)$ signin/notification_link.php?link_type=$1 [NC,L]
+  RewriteRule ^get signin/notification_link.php [NC,L]
+
+ 
+#this is used in forgot password
+  RewriteRule ^forgot_password/([a-zA-Z_]+) signin/forgot_password.php?step=$1 [NC,L]
+  RewriteRule ^forgot_password signin/forgot_password.php [NC,L]
+
+#this is used in ai_box
+  RewriteRule ^ai-box/([a-zA-Z_]+) ai_box/index.php?ai_selected=$1 [NC,L]
+  RewriteRule ^ai-box ai_box/index.php [NC,L]
+
+   
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule .+ - [L]
+RewriteRule ^([^/]+)$ signin/wall.php?user=$1 [QSA,L]
+RewriteRule ^([^/]+)/([a-zA-Z]+)$ signin/wall.php?user=$1&page=$2 [QSA,L]
+
+</IfModule>
+
+
+

@@ -1,0 +1,38 @@
+.user_not_found_box{
+                    margin:0px auto;
+}
+
+.body_of_user_not_found_box{padding:20px;
+                            height:200px;
+}
+
+.left_icon_box{
+               width:30%;
+               float:left;
+               margin-top:70px;
+               height:60px;
+               text-align:center;
+               border-radius:10px;
+              
+}
+
+.right_content_box{font-family:Century Gothic;
+                    text-align:center;
+                    font-size:19px;
+                    width:60%;
+                    float:right;
+                    padding:5px;
+                    border:1px solid rgb(230,230,230);
+                    height:190px;
+                  /*  box-shadow:inset 0px 0px 10px rgb(230,230,230);*/
+                    border-radius:10px;
+   }
+
+.app_logo_img{width:70%;
+	            margin-top:10px;
+ }
+
+ .detail_of_search{font-size:14px; 
+                   text-align:left;
+ }
+

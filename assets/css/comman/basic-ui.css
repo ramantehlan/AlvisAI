@@ -1,0 +1,175 @@
+html{margin:0px;
+     font-size:12px;
+     font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+     background-attachment:fixed;
+     background-color:rgb(255,255,255);
+     background-image:url(../../images/index/background/1.jpg);
+     background-size:100%;
+}
+
+body{margin:0px auto;
+	   width:1000px;
+
+}
+
+#body{width:1000px;
+      margin:0px auto;
+     font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+     font-size:12px;
+     margin-bottom:20px;
+    
+}
+
+#black{width:100%;
+      height:100%;
+      top:0%;
+      left:0%;
+      position:fixed;
+      background-color:rgb(0,0,0);
+      background-color:rgba(0,0,0,0.8);
+      z-index:100;
+      display:none;
+}
+
+textarea , input  {font-size:12px;
+     font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+     outline-color:rgb(0,0,70);
+     overflow:hidden;
+     overflow-y:auto;
+ }
+
+.button{width:100%;
+           margin-top:10px;
+           border-radius:3px;
+           background-color:rgb(159,71,178);
+           background:linear-gradient(top , rgb(159,71,178) 0% , rgb(75,47,112) 100%);
+           background:-webkit-linear-gradient(top , rgb(159,71,178) 0% , rgb(75,47,112) 100%);
+           background:-moz-linear-gradient(top , rgb(159,71,178) 0% , rgb(75,47,112) 100%);
+           background:-o-linear-gradient(top , rgb(159,71,178) 0% , rgb(75,47,112) 100%);
+           color:white;
+           border:1px solid rgb(130,60,160);
+           height:30px;
+           outline-color:rgb(20,20,80);
+           text-align:center;
+ }
+
+.button:hover{
+    border:1px solid rgb(40,30,60);
+   background-color:rgb(124,60,138);
+           background:linear-gradient(top , rgb(124,60,138) 0% , rgb(57,41,78) 100%);
+           background:-webkit-linear-gradient(top , rgb(124,60,138) 0% , rgb(57,41,78) 100%);
+           background:-moz-linear-gradient(top , rgb(124,60,138) 0% , rgb(57,41,78) 100%);
+           background:-o-linear-gradient(top , rgb(124,60,138) 0% , rgb(57,41,78) 100%);
+    cursor:pointer;
+}
+
+
+
+.input{width:97%;
+       border-radius:3px;
+       border:1px solid rgb(230,230,230);
+       margin-top:10px;
+       height:30px;
+       padding-left:5px;
+       font-size:12px;
+       outline-color:rgb(20,20,80);
+
+}
+
+.input:hover{border:1px solid rgb(190,190,190);
+
+             }
+
+.input:focus{
+                border:1px solid rgb(20,20,80);
+}
+
+
+/**************************8
+ this is for the pop up or to make a menu
+*****************************/
+.box_of_pop{ 
+              background-color:white;
+              border-radius:5px;
+              margin-left:10px;
+              margin-right:10px;
+}
+
+.top_of_pop{height:30px;
+            line-height:30px;
+            text-align:center;
+            font-size:14px;
+            color:rgb(200,200,200);
+            border-bottom:1px solid rgb(230,230,230);
+            font-family: Century Gothic;
+}
+
+
+.body_of_pop{
+           padding:10px;
+          padding-top:0px;
+          color:rgb(130,130,130);
+}
+
+.close_of_pop{position:absolute;
+                right:0%;
+                top:0%;
+                margin-top:7px;
+                margin-right:7px;
+              height:16px;
+              width:16px;
+              background-repeat:no-repeat;
+              background-position:50% 50%;
+              background-size:16px 16px;
+              cursor:pointer;
+              background-image:url(../../images/comman/other/cross.png);
+
+}
+
+.error_box{ 
+    font-size:11px;
+
+
+    border-radius:3px;
+       padding:5px;
+       margin-top:10px;
+       background-color:rgb(150,80,10);
+       color:white;
+       display:none;
+
+}
+
+::selection{background:rgba(0,0,70,0.8);
+        color:white;
+        text-shadow:1px 1px 1px black;
+}
+
+
+
+.fb_button{
+         width:100%;
+           margin-top:10px;
+           border-radius:3px;
+           background-color:rgb(0,0,70);
+           color:white;
+           border:1px solid rgb(0,0,0);
+           height:30px;
+           outline-color:rgb(20,20,80);
+           line-height:30px;
+           cursor:pointer;
+}
+
+.fb_button:hover{background-color:rgb(0,0,0);}
+
+.fb_logo_button{  
+                width:30px;
+                height:30px;
+                float:left;
+                margin-left:35px;
+                margin-right:5px;
+                text-decoration:none;
+}
+
+.fb_link{text-decoration:none;}
+
+

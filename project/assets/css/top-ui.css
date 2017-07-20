@@ -1,0 +1,80 @@
+.top{width:100%;
+     height:100px;
+     background-color:rgb(255,255,255);
+     position:fixed;
+     left:0%;
+     top:0%;
+    /* box-shadow:0px 0px 10px rgb(250,250,250);
+     border-bottom:1px solid rgb(230,230,230);*/
+     box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.logo{margin-top:30px;
+      height:40px;
+      margin-left:10px;
+      border:0px;
+      float:left;
+}
+
+.icon_on_scroll{margin-top:15px;
+      height:20px;
+      margin-left:10px;
+      border:0px;
+}
+
+#middle_top{width:1000px;
+            height:100%;
+            margin:0px auto;
+ }
+
+
+.menu_on_scroll{width:100%;
+     height:50px;
+     background-color:rgb(255,255,255);
+     position:fixed;
+     left:0%;
+     top:0%;
+    /* box-shadow:0px 0px 10px rgb(250,250,250);
+     border-bottom:1px solid rgb(230,230,230);*/
+     box-shadow:0px 0px 10px rgba(0,0,0,0.2);}
+
+
+/***********************************888
+this is to show profile box of user
+******************************************/
+
+.user_id_box{width:250px;
+             height:40px;
+             float:right;
+             background-color:rgb(155,100,155);
+             color:white;
+             margin-top:5px;
+             border-radius:3px;
+}
+
+.profile_image_holder{
+                        float:left;
+                        overflow:hidden;
+                        height:32px;
+                        width:32px;
+                        margin-top:4px;
+                        margin-left:4px;
+                        border-radius:3px;
+                        background-color:white;
+
+}
+
+
+.name_of_person{height:32px;
+                line-height:32px;
+                margin-top:4px;
+                margin-left:42px;
+                font-size:14px;
+                overflow:hidden;
+                overflow:hidden;
+                white-space:nowrap;
+                text-overflow:ellipsis;
+                 text-transform:capitalize;
+ }
+
+
