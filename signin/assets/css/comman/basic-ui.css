@@ -1,0 +1,483 @@
+html{margin:0px;
+     font-size:12px;
+     font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+     background-attachment:fixed;
+     background-color:rgb(255,255,255);
+     background-color:rgb(130,200,240);
+     background-color:rgb(30,50,80);
+      /*cursor:url(../../images/comman/other/pointer_arrow.png),default;*/ 
+  
+      /*background-image:url("../../../user files/background pictures/bg/8.jpg");*/
+}
+
+body{margin:0px auto;
+	   width:1000px;
+     padding-top:60px;
+}
+
+form{margin:0px;
+    padding:0px;
+}
+
+a{text-decoration:none;}
+
+#body{width:1000px;
+      margin:0px auto;
+     font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+     font-size:12px;
+}
+
+#black{width:100%;
+      height:100%;
+      top:0%;
+      left:0%;
+      position:fixed;
+      background-color:rgb(0,0,0);
+      background-color:rgba(0,0,0,0.9);
+      z-index:100;
+      display:none;
+}
+
+#loading{width:300px;
+         height:200px;
+         border-radius:5px;
+         position:fixed;
+         background-color:white;
+         z-index:101;
+         top:50%;
+         left:50%;
+         margin-left:-150px;
+         margin-top:-100px;
+         text-align:center;
+         display:none;
+}
+
+#loading img{margin-top:85px;}
+
+textarea , input  {font-size:12px;
+     font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+     outline-color:rgb(0,0,70);
+     overflow:hidden;
+     overflow-y:auto;
+     resize:none;
+ }
+
+.button{   min-width:80px;
+           margin-top:10px;
+           border-radius:3px;
+           background-color:rgb(159,71,178);
+           background:linear-gradient(top , rgb(159,71,178) 0% , rgb(75,47,112) 100%);
+           background:-webkit-linear-gradient(top , rgb(159,71,178) 0% , rgb(75,47,112) 100%);
+           background:-moz-linear-gradient(top , rgb(159,71,178) 0% , rgb(75,47,112) 100%);
+           background:-o-linear-gradient(top , rgb(159,71,178) 0% , rgb(75,47,112) 100%);
+           color:white;
+           border:1px solid rgb(130,60,160);
+           height:30px;
+           outline-color:rgb(0,0,0);
+ }
+
+.button:hover{
+    border:1px solid rgb(40,30,60);
+   background-color:rgb(124,60,138);
+           background:linear-gradient(top , rgb(124,60,138) 0% , rgb(57,41,78) 100%);
+           background:-webkit-linear-gradient(top , rgb(124,60,138) 0% , rgb(57,41,78) 100%);
+           background:-moz-linear-gradient(top , rgb(124,60,138) 0% , rgb(57,41,78) 100%);
+           background:-o-linear-gradient(top , rgb(124,60,138) 0% , rgb(57,41,78) 100%);
+    cursor:pointer;
+}
+
+
+
+.button_2{height:30px;
+                   border-radius:5px;
+                   border:1px solid rgb(230,230,230);
+                   background-color:white;
+                   color:rgb(190,190,190);
+                   cursor:pointer;
+}
+
+.button_2:hover{background-color:rgb(250,250,250);}
+
+.input{width:100%;
+       border-radius:3px;
+       border:1px solid rgb(230,230,230);
+       height:30px;
+       padding-left:5px;
+       font-size:12px;
+       outline-color:rgb(20,20,80);
+
+}
+
+.input:hover{border:1px solid rgb(190,190,190);
+
+             }
+
+
+
+.search_input{ background-repeat:no-repeat;
+                   background-position:50% 50%;
+                   background-size:16px 16px;
+                   background-image:url("../../images/comman/other/search.png");}
+
+
+/**************************8
+ this is for the pop up or to make a menu
+*****************************/
+.box_of_pop{ 
+              background-color:white;
+              border-radius:5px;
+              margin-left:10px;
+              margin-right:10px;
+}
+
+.top_of_pop{height:30px;
+            line-height:30px;
+            text-align:center;
+            font-size:14px;
+            color:rgb(0,0,0);
+            background-color:rgb(200,220,255);
+            background:linear-gradient(top , rgb(210,230,255) 0% , rgb(190,210,230) 100%);
+           background:-webkit-linear-gradient(top , rgb(210,230,255) 0% , rgb(190,210,230) 100%);
+           background:-moz-linear-gradient(top , rgb(210,230,255) 0% , rgb(190,210,230) 100%);
+           background:-o-linear-gradient(top , rgb(210,230,255) 0% , rgb(190,210,230) 100%);
+            border-radius:5px 5px 0px 0px;
+            border-bottom:1px solid rgb(170,190,210);
+            font-family: Century Gothic;
+            overflow:hidden;
+          white-space:nowrap;
+          text-overflow:ellipsis;
+}
+
+
+.body_of_pop{
+           padding:10px;
+          padding-top:0px;
+          color:rgb(130,130,130);
+}
+
+.close_of_pop{position:absolute;
+                right:0%;
+                top:0%;
+                margin-top:7px;
+                margin-right:7px;
+              height:16px;
+              width:16px;
+              background-repeat:no-repeat;
+              background-position:50% 50%;
+              background-size:16px 16px;
+              cursor:pointer;
+              background-image:url("../../images/comman/pop_files/cross.png");
+
+}
+
+.bottom_of_pop{height:50px;
+              border-top:1px solid rgb(220,220,220);
+              margin-top:20px;
+               background-color:white;
+               border-radius:0px 0px 5px 5px;
+}
+
+
+/**************************************
+this is for the small things 
+*****************************************/
+
+.center_row{   
+                  width:1000px;
+                  margin-top:-10px;
+                  padding-bottom:20px;
+                    padding-top:10px;
+                    min-height:100%;
+}
+.shadow{ box-shadow:0px 0px 10px rgba(30,30,30,0.2);}
+.mover{cursor:move;}
+.overflow{overflow:hidden;
+          white-space:nowrap;
+          text-overflow:ellipsis;
+}
+.gasture{width:13px;
+         height:13px;
+         margin-top:3px;
+         margin-bottom:-3px;
+}
+.capital{text-transform:capitalize;}
+.hash_a{text-decoration:none;
+  color:rgb(120,170,240);
+  font-style:normal;
+}
+.light_background{background-color:rgba(0,0,0,0.3);}
+
+.error{border-radius:3px;
+       padding:5px;
+       margin-top:10px;
+       background-color:rgb(150,80,10);
+       color:white;
+       display:none;
+}
+
+.follow_button{                 background-image:url("../../images/wall/information_box/follow.png");
+                                              cursor:pointer;
+                                               background-size:16px 16px;
+                                               background-position:20px;
+                                               background-repeat:no-repeat;
+                                              font-size:16px;
+                                              height:30px;
+                                              width:150px;
+                                              border-radius:3px;
+                                              color:black;
+                                              line-height:30px;
+                                              text-align:center;
+}
+
+.unfollow_button{                 background-image:url("../../images/wall/information_box/following.png");
+                                               cursor:pointer;
+                                               background-size:16px 16px;
+                                               background-position:20px;
+                                               background-repeat:no-repeat;
+                                               font-size:16px;
+                                              height:30px;
+                                              width:150px;
+                                              border-radius:3px;
+                                              color:black;
+                                              line-height:30px;
+                                              text-align:center;
+}
+
+.unfollow_button:hover{                 background-image:url("../../images/wall/information_box/unfollow.png");
+                                         background-color:rgb(160,80,40);
+                                         border:1px solid rgb(150,70,30);
+                                         color:white;
+}
+
+
+
+/**************************************************
+ this is for the check box
+**************************************************/
+
+
+input[type='checkbox']{
+  display:none;
+}
+
+/* unchecked */
+label{
+}
+
+label .checkbox--img{background-image:url("../../images/comman/pop_files/check_off.png");
+}
+
+/* checked */
+input[type='checkbox']:checked + label{
+
+}
+
+input[type='checkbox']:checked + label .checkbox--img{background-image:url("../../images/comman/pop_files/check_on.png");}
+
+
+::selection{background:rgba(0,0,70,0.8);
+        color:white;
+        text-shadow:1px 1px 1px black;
+}
+
+
+/**************************
+this is for the menu
+************************/
+.menu{
+      background-color:rgb(235,240,245);
+      border-radius:5px;
+      margin-top:10px;
+      padding:10px;
+      line-height:18px;
+      transition:background-color 0.3s;
+      -webkit-transition:background-color 0.3s;
+      -moz-transition:background-color 0.3s;
+      -o-transition:background-color 0.3s;
+}
+
+.menu:hover{background-color:white;}
+
+.menu a{margin-left:3px;
+        text-decoration:none;
+        color:rgb(160,160,160);
+}
+
+.menu a:hover{color:rgb(80,80,80);}
+
+
+
+ /*******************************8
+thsi is after load scree
+ **********************************/
+
+.load_more_div{height:50px;
+              border-radius:5px; 
+              background-color:white;
+              line-height:50px;
+              text-align:center;
+              margin:0px auto;
+              margin-top:40px;
+              margin-bottom:20px;
+              width:97%;
+
+}
+
+.load_more_div img{margin-top:14px;}
+
+.feed_more_button{margin-top:10px;}
+
+
+
+.no_updates{height:100px;
+            background-color:white;
+            border-radius:5px;
+            padding:10px;
+            line-height:100px;
+            font-size:30px;
+            font-family:Century Gothic;
+            text-align:center;
+            color:rgb(180,180,180);
+}
+
+
+/****************************
+this is to show the likes of user box
+*****************************/
+
+.all_likes_of_feed_box{width:300px;
+                       position:fixed;
+                       top:50%;
+                       left:50%;
+                       margin-left:-150px;
+                       margin-top:-300px;
+                       z-index:101;
+                       display:none;
+
+}
+
+.body_of_all_like_box{text-align:center;
+                      padding-top:5px;
+                      overflow:hidden;
+                      overflow-y:auto;       
+                       max-height:400px;
+                       min-height:180px;
+                       border-radius:5px;
+                       border:1px solid transparent;
+}
+
+.loading_sign_of_all_like_box{width:16px;
+                              height:16px;
+                              margin-top:60px;
+
+   }
+
+.all_likes_msg{margin-top:50px;
+               font-size:16px;
+               color:rgb(170,170,170);
+}
+
+
+.all_liker_one_body{margin-top:5px;
+                    border:1px solid rgb(230,230,230);
+                    height:37.5px;
+                    border-radius:5px;
+                    padding-top:2.5px;
+}
+
+.all_liker_profile_pic_holder{width:35px;
+                              height:35px;
+                              border-radius:3px;
+                              overflow:hidden;
+                              margin-left:2.5px;
+                              float:left;
+}
+
+.all_liker_profile_pic_holder img{width:35px;
+                                  height:35px;
+                                  border:0px;
+}
+
+.all_liker_info_holder{   
+                          height:35px;
+                          line-height:35px;
+                          margin-left:50px;
+                          font-size:14px;
+                          color:rgb(160,160,160);
+                          text-align:left;
+                          text-transform:capitalize;
+
+}
+
+.all_liker_load{margin-top:10px;}
+
+
+
+
+
+/******************************************************
+this is to edit the box
+**********************************************************/
+
+
+.edit_comment_of_feed_box{width:300px;
+                       position:fixed;
+                       top:50%;
+                       left:50%;
+                       margin-left:-150px;
+                       margin-top:-300px;
+                       z-index:101;
+                       display:none;
+}
+
+.new_comment_holder{
+                     margin-top:10px;
+                     margin-right:5px;
+                     width:100%;
+                     height:100px;
+                     border-radius:3px;
+                     border:1px solid rgb(230,230,230);
+
+}
+
+
+/********************************************************
+this is for the photo viwer
+*********************************************************/
+
+.view_image_slide_magnifier{width:900px;
+                            position:fixed;
+                            top:50%;
+                            left:50%;
+                            margin-left:-450px;
+                            margin-top:-300px;
+                            z-index:101;
+                            display:none;
+ }
+
+ .body_of_photo_view{text-align:center;
+                    overflow:hidden;
+                    border-radius:0px 0px 4px 4px;
+                    
+                      width:100%;
+                      height:500px;
+                      background-color:rgb(0,0,0);
+                      background-color:rgba(0,0,0,0.6);
+                      
+                      padding:0px;
+                      padding-top:5px;
+                      padding-bottom:5px;
+
+
+                      background-repeat:no-repeat;
+                      background-position:50% 50%;
+                      background-image:url("../../images/comman/pop_files/preloader12.gif");
+
+ }
+
+ .body_of_photo_view img {
+                            height:500px;
+                            box-shadow:0px 0px 10px rgb(0,0,0);
+                            box-shadow:0px 0px 10px rgba(0,0,0,0.6);
+ }
+

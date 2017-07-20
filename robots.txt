@@ -1,0 +1,16 @@
+User-agent: *
+Crawl-delay: 1
+Disallow: /assets
+Disallow: /includes
+Disallow: /server
+Disallow: /signup
+Disallow: /ai_box
+Disallow: /Readme
+Disallow: /.htaccess
+
+Disallow: /signin/assets
+Disallow: /signin/user files
+Disallow: /signin/sub
+Disallow: /project/assets
+
+

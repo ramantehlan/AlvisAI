@@ -1,0 +1,158 @@
+/**********************************************
+this is for the right side information row 
+***********************************************/
+.right_Side_info_row{float:right;
+                     width:300px;
+                     /*border:1px solid rgb(230,230,230);*/
+                     border-radius:10px;
+
+ }
+
+  .right_side_info_row_body{border-radius:0px 0px 0px 0px;
+                          background-color:white;
+                          padding-bottom:10px;
+                          padding-top:20px;
+
+   }
+
+.ai_apps_display{
+                                   padding:10px;
+                                   border-radius:5px 5px 0px 0px;
+                                   font-size:13px;
+                                   color:rgb(120,120,120);
+
+}
+
+.ai_app_options {text-align:center;
+                    cursor:pointer;
+}
+.ai_app_options img{width:120px;
+                    border:0px;
+}
+
+
+.menu{float:left;
+      border-radius:0px 0px 5px 5px;
+      border-top:1px solid rgb(230,230,230);
+      margin-top:0px;
+}
+
+
+
+/*************************************************
+this is for the right side info box
+*************************************************/
+.first_shadow_box{float:right;
+                     /*border:1px solid rgb(230,230,230);*/
+                     border-radius:10px;
+                     width:100%;
+                   }
+
+.user_info_box{
+               border-radius:5px 5px 0px 0px;
+               padding:10px;
+               min-height:50px;
+               background-color:rgb(245,250,255);
+               border-bottom:1px solid rgb(230,230,230);
+               
+}
+
+.own_dp{border-radius:5px;
+        overflow:hidden;
+        width:50px;
+        height:50px;
+        float:left;
+        }
+
+.own_dp a{text-decoration:none;}
+
+.own_dp img{border:0px;}
+
+.own_name{font-size:16px;
+          max-width:175px;
+          margin-left:55px;
+          font-family:arial;
+          font-weight:bold;
+          cursor:pointer;
+}
+
+.own_name a{text-decoration:none;
+             color:rgb(30,50,80);
+}
+
+.own_sub{height:20px;
+         margin-left:5px;
+         margin-top:7px;
+         float:left;
+         width:85px;
+}
+
+
+.small_img_box{width:20px;
+               height:20px;
+               float:left;
+               background-position:50% 50%;
+               background-size:16px 16px;
+               background-repeat:no-repeat;
+}
+.no_own_box{height:20px;
+              line-height:20px;
+              padding-left:5px;
+ }
+
+.info_box_views{background-image:url("../../images/wall/information_box/views.png");}
+.info_box_score{background-image:url("../../images/wall/information_box/score.png");}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /***************************************
+ this is for the center
+ *******************************************/
+.center_feed_row{   
+	                width:680px;
+	                margin-top:-10px;
+	                padding-bottom:20px;
+	                position:absolute;
+
+}
+
+
+
+
+
+.top_notic_msg{height:40px;
+              border-radius:5px; 
+              background-color:white;
+              line-height:40px;
+              text-align:center;
+              margin:0px auto;
+              margin-top:10px;
+              margin-bottom:20px;
+              width:97%;
+              font-size:15px; 
+              color:rgb(160,120,80);
+
+}
+
+.top_notic_msg_img{width:16px;
+                   height:16px;
+                  margin-bottom:-2px;
+}
+
+
+.no_updates{
+              margin-left:20px;
+              margin-right:20px;
+              margin-top:40px;
+          }

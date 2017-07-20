@@ -1,0 +1,137 @@
+.questions_holder_box{width:900px;
+                      margin-top:10px;
+                      margin-left:50px;
+
+}
+
+/*****************************
+this is for individual question
+********************************/
+
+.body_of_single_question{
+                         margin-top:20px;
+                         margin-bottom:20px;
+                         font-size:16px;
+                         border:1px solid rgb(230,230,230);
+                         border-radius:10px;
+                         color:black;
+                         opacity:0.7;
+}
+
+.body_of_single_question:hover{opacity:1;
+                                  border:1px solid rgb(220,220,220);
+ }
+
+.top_body_of_question{padding:10px;
+                      padding-left:50px;
+}
+
+.question_link{font:11px;
+               text-decoration:none;
+               margin-left:5px;
+ }
+
+ .question_link:hover{text-decoration:underline;}
+
+ .left_side_of_question{float:left;
+                        width:40px;
+                        font-weight:bold;
+                        font-size:16px;
+                        color:black;
+                         margin-left:-40px;
+ }
+ .menu_of_question_box{border-radius:0px 0px 10px 10px;
+                         height:40px;
+                         line-height:40px;
+                         padding-left:10px;
+ }
+
+.option_of_menu_question_box{height:25px;
+                              margin-left:20px;
+                              margin-top:7.5px;
+                              float:left;
+                              width:60px;
+                              padding-left:30px;
+                              line-height:25px;
+                               background-repeat:no-repeat;
+                               background-position:10px;
+                               border-radius:5px;
+                               background-size:13px 13px;
+                               font-size:15px;
+                               color:black;
+                               cursor:pointer;
+                               border:1px solid transparent;
+}
+
+.option_of_menu_question_box:hover{border:1px solid rgb(230,230,230);}
+
+.answer_question_button{
+                               background-image:url('../../images/questions/pencil.png');
+}
+
+.delete_question_button{
+                               background-image:url('../../images/questions/trash.png');
+}
+
+
+.answer_area_of_question{
+                           height:80px;
+                           padding:50px;
+                           padding-top:30px;
+                           display:none;
+}
+
+.answer_area_of_question textarea {width:100%;
+                                     border-radius:5px;
+                                     height:80px;
+                                     border:1px solid rgb(230,230,230);
+                                     padding:10px;
+                                     font-size:14px;
+}
+
+.answer_area_of_question input {float:right;
+                                  margin-top:10px;
+}
+
+.time_of_question{float:right;
+                  margin-right:10px;
+                  color:rgb(120,120,120);
+                  cursor:default;
+                  font-size:12px;
+                  padding-left:30px;
+                  background-size:16px 16px;
+                  background-position:10px;
+                  background-repeat:no-repeat;
+                  background-image:url("../../images/comman/feed_box/clock.png");
+                      }
+
+.saving_platform{
+                 margin-right:30px;
+                 font-size:12px;
+                 text-align:center;
+ }
+
+
+.no_question_found_box{height:100px;
+            background-color:white;
+            border-radius:5px;
+            padding:10px;
+            line-height:100px;
+            font-size:30px;
+            font-family:Century Gothic;
+            text-align:center;
+            color:rgb(180,180,180);
+
+}
+
+
+/****************************
+this is for the menu of wall
+***************************/
+.menu{width:980;
+      border-radius:0px;
+      margin-bottom:0px;
+      margin-top:50px;
+}
+
+

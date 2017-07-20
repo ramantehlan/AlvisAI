@@ -1,0 +1,198 @@
+/*
+  this is for the search box
+*/
+#top_search_box{width:400px;
+             
+                float:left;
+                margin-left:40px;
+                 border-radius:0px 0px 3px 3px;
+}
+
+
+
+.top_search_box_tool{width:100%;
+                      height:30px;
+                      margin-top:10px;
+}
+
+.top_search_box_input{width:93%;
+	                  font-size:12px;
+	                  height:30px;
+                      float:left;
+                      border-radius:3px 0px 0px 3px;
+                      outline:none;
+                      
+
+}
+
+.top_search_button{width:7%;
+                   height:30px;
+                   float:left;
+                   border-radius:0px 3px 3px 0px;
+                   border:1px solid rgb(230,230,230);
+                   background-color:rgb(255,255,255);
+                   border-left:0px;
+                
+}
+
+.top_search_button:hover{background-color:rgb(230,240,250);
+                       cursor:pointer;
+}
+             /*
+                   this css for the while seach
+             */
+
+             .top_search_box_tool_searched{width:100%;
+                      height:30px;
+                      
+
+                  }
+
+               .top_search_box_display{
+                       min-height:200px;
+                       max-height:370px;
+                       background:rgb(255,255,255);
+                       display:none;
+
+                  }
+
+                .hint_for_search{
+                          font-size:11px;
+                          margin-top:5px;
+                          width:100%;
+                          height:20px;
+                          border-radius:3px;
+                          background-color:rgb(255,255,255);
+                          background-color:rgba(255,255,255,0.8);
+                          color:black;
+                          text-align:center;
+                          line-height:20px;
+                          display:none;
+                }
+
+              .top_search_box_input_searched{width:93%;
+	                  font-size:12px;
+	                  height:30px;
+                      float:left;
+                      border-radius:0px 0px 0px 3px;
+                      outline:none;
+                      border:0px;
+                      border-top:1px solid rgb(200,200,200);
+                      border-right:1px solid rgb(200,200,200);
+                     }
+
+                .top_search_box_input_searched:hover{
+                	border:0px;
+                	 border-top:1px solid rgb(200,200,200);
+                      border-right:1px solid rgb(200,200,200);
+
+                }
+                .top_search_box_input_searched:focus{
+                	border:0px;
+                	 border-top:1px solid rgb(200,200,200);
+                      border-right:1px solid rgb(200,200,200);
+
+                }
+
+                     .top_search_button_searched{width:7%;
+                   height:30px;
+                   float:left;
+                   border-radius:0px 0px 3px 0px;
+                   border:0px;
+                   border-top:1px solid rgb(200,200,200);
+                   background-color:rgb(255,255,255);
+                   
+                
+                       }
+              .while_search_img{
+                              margin-top:90px;
+                              margin-bottom:30px;
+                              margin-left:185px;
+                              
+              }
+
+/*this is present in search_user.php*/
+
+
+.search_result_stat_info{height:29px;
+                          line-height:29px;
+                          text-align:center;
+                          background-color:rgb(50,120,160);
+                          background:linear-gradient(rgb(50,120,160) , rgb(30,100,140));
+                          border-bottom:1px solid rgb(0,0,0);
+                          color:rgb(240,240,240);
+                           overflow:hidden;
+                         white-space:nowrap;
+                         text-overflow:ellipsis;
+}
+
+.display_result_info{
+                     padding:5px;
+                     padding-top:3px;
+                     min-height:162px;
+                     max-height:332px;/* difference 38*/
+                     overflow:hidden;
+                     overflow-y:auto;
+}
+
+.searched_user_bar_display_box{height:32px;
+                               border:1px solid rgb(230,230,230);
+                               margin-top:4px;
+                               border-radius:4px;
+                               padding:5px;
+
+                                                              }
+
+.searched_user_bar_display_box:hover{
+                                      background-color:rgb(250,250,250);
+                                     /*
+                                     background-color:rgb(230,230,230);
+                                     background:linear-gradient( rgb(230,230,230) , rgb(210,210,210));
+                               border:1px solid rgb(210,210,210);
+                               */
+                               cursor:pointer;
+                             }
+
+.profile_pic_of_search_user{width:34px;
+                            height:34px;
+                            overflow:hidden;
+                            border-radius:3px 0px 0px 3px;
+                            text-decoration:none;
+                            margin-left:-1px;
+                            margin-top:-1px;
+                            float:left;
+}
+
+
+.profile_pic_of_search_user img{width:34px;
+                                height:34px;
+                                border:0px;
+}
+
+.detail_of_search_user{height:50px;
+                       margin-left:35px;
+}
+
+.name_of_the_search_user{margin-left:10px;
+                         font-size:14px;
+                         text-transform:capitalize;
+                         color:rgb(70,70,70);
+                         height:32px;
+                         line-height:28px;
+}
+
+.attag_of_search_user{text-transform:none;
+                      color:rgb(150,150,150);
+                      font-size:12px;
+                      font-weight:normal;
+}
+
+
+.center_div_of_search{height:30px;
+                        margin-top:5px;
+                        text-align:center;
+                       line-height:30px;
+                       color:rgb(200,200,200);
+                       font-size:14px;
+
+}
