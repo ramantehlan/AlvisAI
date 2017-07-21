@@ -1,3 +1,5 @@
+![Web app front page](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_1.JPG)
+
 # AlvisAI
 Alvisai is a social networking web app with a built in bot. 
 
@@ -53,9 +55,9 @@ Go to `http://host/ai_box/ai/program_o/install/install_programo.php` where the h
 
 > Note: Bot will work now but you still need to teach your bot. To do that just got to **http://host/ai_box/ai/program_o/admin/** and log in with your Program-O details which you filled in step `Install Bot`.
 
-> AlvisAI is also referred as zimp or zimpbox at various places in app.
-
 **That's it! AlvisAI is alive now** :sparkles: :boom: :sparkles: :boom:
+
+> **Warning: AlvisAI is also referred as zimp or zimpbox at various places in app.**
 
 
 
