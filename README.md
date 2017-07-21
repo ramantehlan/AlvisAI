@@ -1,7 +1,5 @@
-![Main page of alvis](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_1.JPG)
-
 # AlvisAI
-Alvisai is a social networking web app with a built in bot. Upload photos, do anonymous status updates, follow your friends and much more.
+Alvisai is a social networking web app with a built in bot. 
 
 
 # Back Story
@@ -54,6 +52,8 @@ Create a new database in MySQL, name it "alvis_bot".
 Go to `http://host/ai_box/ai/program_o/install/install_programo.php` where the host can be localhost or your website. Then the installation form will appear. Fill out this form and use "alvis_bot" as its database and other details according to your MySQL database. Finally, click on save.
 
 > Note: Bot will work now but you still need to teach your bot. To do that just got to **http://host/ai_box/ai/program_o/admin/** and log in with your Program-O details which you filled in step `Install Bot`.
+
+> AlvisAI is also referred as zimp or zimpbox at various places in app.
 
 **That's it! AlvisAI is alive now** :sparkles: :boom: :sparkles: :boom:
 
