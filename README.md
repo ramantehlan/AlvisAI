@@ -35,7 +35,7 @@ Well, after 2 years I have decided to open source my web app and if you need a p
 
 **Step 3: Configure program**
 
-  - Now you need to got to `includes/config.inc.php` in the root directory and then change `MYSQL DETAIL AREA` to your MySql details.
+  - Now you need to go to `includes/config.inc.php` in the root directory and then change `MYSQL DETAIL AREA` to your MySql details.
 
 **Step 4: Create bot database**
 
