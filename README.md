@@ -17,23 +17,25 @@ That's when I decided to create a social network with artificial intelligence, a
 But unfortunately, my vision/app didn't get much response, not many people signed up for it and it did a crash landing. I later wrote a (private)document on what went wrong. It was my approach to the problem which didn't fit right. I had to learn it hard way. The irony is that after this I myself got a bit depressed and was disappointed, well I was 16 or 17 maybe and was too excited about this project, so disappointment was quite guaranteed. But I learned a lot and was quite happy and positive in the end. 
 
 
-#### What's in it for you.
-Well, after 2 years I have decided to open source my web app and if you need a pre-built social network then feel free to use AlvisAI.
+#### What's in it for you
+Well, after 2 years I have decided to open source my web app and if you need a pre-built social network then feel free to edit and use AlvisAI for yourself and others.
 
 
 # Installation
 
 
-**1) Download the project to root directory.**
+1 **Download the project to root directory**
+
+  - Download the project and unzip only in the root directory of your website root or localhost.
 
 
-Download the project and unzip only in the root directory of your website root or localhost.
+2 **Import database to MySQL**
 
+  - You need to import two **.sql** files to MySQL database. Those two files are: `server/sql/alvisai.sql` and `server/sql/alvisai_learn.sql` in the root directory.
 
-**2) Import database to MySQL.**
+3 **Configure program**
 
-
-You need to import two **.sql** files to MySQL database. Those two files are: `server/sql/alvisai.sql` and `server/sql/alvisai_learn.sql` in the root directory.
+  - you can
 
 
 > Note: Till this step, The social networking will get active but it won't have a bot yet. Now we will use [**Program-O**](https://github.com/Program-O/Program-O), which is pre-installed in root directory we just need to initiate bot installation.
@@ -42,16 +44,16 @@ You need to import two **.sql** files to MySQL database. Those two files are: `s
 ## Installing Program-O
 
 
-**3) Create bot database**
+4 **Create bot database**
 
 
-Create a new database in MySQL, name it "alvis_bot".
+  - Create a new database in MySQL, name it "alvis_bot".
 
 
-**4) Install Bot**
+5 **Install Bot**
 
 
-Go to `http://host/ai_box/ai/program_o/install/install_programo.php` where the host can be localhost or your website. Then the installation form will appear. Fill out this form and use "alvis_bot" as its database and other details according to your MySQL database. Finally, click on save.
+  - Go to `http://host/ai_box/ai/program_o/install/install_programo.php` where the host can be localhost or your website. Then the installation form will appear. Fill out this form and use "alvis_bot" as its database and other details according to your MySQL database. Finally, click on save.
 
 > Note: Bot will work now but you still need to teach your bot. To do that just got to **http://host/ai_box/ai/program_o/admin/** and log in with your Program-O details which you filled in step `Install Bot`.
 
