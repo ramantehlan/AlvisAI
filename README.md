@@ -1,4 +1,4 @@
-![Main page of alvis](https://github.com/ramantehlan/AlvisAI/blob/master/assets/images/screenshot_1.JPG)
+![Main page of alvis](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_1.JPG)
 
 # AlvisAI
 Alvisai is a social networking web app with a built in bot. Upload photos, do anonymous status updates, follow your friends and much more.
