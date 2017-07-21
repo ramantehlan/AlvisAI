@@ -24,36 +24,36 @@ Well, after 2 years I have decided to open source my web app and if you need a p
 # Installation
 
 
-1 Download the project to root directory
+**Step 1: Download the project to root directory**
 
   - Download the project and unzip only in the root directory of your website root or localhost.
 
 
-2 Import database to MySQL
+**Step 2: Import database to MySQL**
 
   - You need to import two **.sql** files to MySQL database. Those two files are: `server/sql/alvisai.sql` and `server/sql/alvisai_learn.sql` in the root directory.
 
-3 Configure program
+**Step 3: Configure program**
 
   - Now you need to got to `includes/config.inc.php` in the root directory and then change `MYSQL DETAIL AREA` to your MySql details.
 
-4 Create bot database
+**Step 4: Create bot database**
 
   - Create a new database in MySQL, name it "alvis_bot".
 
 
-5 Install Bot
+**Step 5: Install Bot**
 
   - Go to `http://host/ai_box/ai/program_o/install/install_programo.php` where the host can be localhost or your website. Then the installation form will appear. Fill out this form and use "alvis_bot" as its database and other details according to your MySQL database. Finally, click on save.
   
 
 # Notes
 
-> By step 3, The social networking will get active but it won't have a bot yet. Now we will use [**Program-O**](https://github.com/Program-O/Program-O), which is pre-installed in root directory we just need to initiate bot installation.
+- By step 3, The social networking will get active but it won't have a bot yet. Now we will use [**Program-O**](https://github.com/Program-O/Program-O), which is pre-installed in root directory we just need to initiate bot installation.
 
-> Bot will work by step 5 but you still need to teach your bot other wise it will show default answer. To do that just got to **http://host/ai_box/ai/program_o/admin/** and log in with your Program-O details which you filled in step `Install Bot`.
+- Bot will work by step 5 but you still need to teach your bot other wise it will show default answer. To do that just got to **http://host/ai_box/ai/program_o/admin/** and log in with your Program-O details which you filled in step `Install Bot`.
 
-> **Warning: AlvisAI is also referred as zimp or zimpbox at various places in app.**
+- AlvisAI is also referred as zimp or zimpbox at various places in app.
 
 **That's it! AlvisAI is alive now** :sparkles: :boom: :sparkles: :boom:
 
