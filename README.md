@@ -31,11 +31,11 @@ Alvisai is a social networking web app with a built in bot.
 
 # Notes
 
-- By step 3, The social networking will get active but it won't have a bot yet. Now we will use [**Program-O**](https://github.com/Program-O/Program-O), which is pre-installed in root directory we just need to initiate bot installation.
+1) By step 3, The social networking will get active but it won't have a bot yet. Now we will use [**Program-O**](https://github.com/Program-O/Program-O), which is pre-installed in root directory we just need to initiate bot installation.
 
-- Bot will work by step 5 but you still need to teach your bot other wise it will show default answer. To do that just got to **http://host/ai_box/ai/program_o/admin/** and log in with your Program-O details which you filled in step `Install Bot`.
+2) Bot will work by step 5 but you still need to teach your bot other wise it will show default answer. To do that just got to **http://host/ai_box/ai/program_o/admin/** and log in with your Program-O details which you filled in step `Install Bot`.
 
-- AlvisAI is also referred as zimp or zimpbox at various places in app.
+3) AlvisAI is also referred as zimp or zimpbox at various places in app.
 
 **That's it! AlvisAI is alive now** :sparkles: :boom: :sparkles: :boom:
 
