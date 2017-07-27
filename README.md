@@ -1,5 +1,3 @@
-![Web app front page](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_1.JPG)
-
 # AlvisAI
 Alvisai is a social networking web app with a built in bot. 
 
@@ -54,3 +52,11 @@ But unfortunately, my vision/app didn't get much response, not many people signe
 
 #### What's in it for you
 Well, after 2 years I have decided to open source my web app and if you need a pre-built social network then feel free to edit and use AlvisAI for yourself and others.
+
+# Screenshots
+
+![Web app front page](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_1.JPG)
+![Web app front page](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_2.JPG)
+![Web app front page](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_3.JPG)
+![Web app front page](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_4.JPG)
+
