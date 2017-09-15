@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://ramantehlan.github.io/AlvisAI/assets/images/comman/logos/logo_blue.png" width="300">  
+</p>
+
 # AlvisAI
 Alvisai is a social networking web app with a built in bot. 
 
@@ -37,6 +41,14 @@ Alvisai is a social networking web app with a built in bot.
 
 **That's it! AlvisAI is alive now** :sparkles: :boom: :sparkles: :boom:
 
+# Contribution 
+
+Feel free to add your own features or improve any current feature, any kind of help is appreciated!
+
+# License
+
+GNU General Public License v3.0
+
 # Back Story
 #### You probably don't want to read it
 
@@ -55,8 +67,8 @@ Well, after 2 years I have decided to open source my web app and if you need a p
 
 # Screenshots
 
-![Web app front page](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_1.JPG)
-![Web app front page](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_2.JPG)
-![Web app front page](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_3.JPG)
-![Web app front page](https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_4.JPG)
+<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_1.JPG" width="450px" align="left">
+<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_2.JPG" width="450px" align="left">
+<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_3.JPG" width="450px" align="left">
+<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_4.JPG" width="450px" align="left">
 
