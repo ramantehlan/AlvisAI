@@ -5,8 +5,11 @@
 # AlvisAI
 Alvisai is a social networking web app with a built in bot. 
 
-# Installation
+# Requirement
 
+  WAMP, MAMP, LAMP, XAMPP or any other server with PHP, MySQL and Apache installed is required to run this project.
+
+# Installation
 
 **Step 1: Download the project to root directory**
 
