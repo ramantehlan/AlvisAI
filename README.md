@@ -67,9 +67,9 @@ Well, after 2 years I have decided to open source my web app and if you need a p
 
 # Screenshots
 
-<p>
-<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_1.JPG" width="430px" align="left">
-<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_2.JPG" width="430px" align="left">
-<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_3.JPG" width="430px" align="left">
-<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_4.JPG" width="430px" align="left">
+<p >
+<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_1.JPG" width="430px" />
+<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_2.JPG" width="430px" />
+<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_3.JPG" width="430px" />
+<img src="https://ramantehlan.github.io/AlvisAI/assets/images/screenshot_4.JPG" width="430px" />
 </p>
