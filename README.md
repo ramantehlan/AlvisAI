@@ -46,6 +46,10 @@ Alvisai is a social networking web app with a built in bot.
 
 # Contribution 
 
+**Author**
+
+- [Raman Tehlan](https://ramantehlan.github.io/)
+
 Feel free to add your own features or improve any current feature, any kind of help is appreciated!
 
 # License
