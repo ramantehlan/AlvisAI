@@ -3,7 +3,7 @@
 </p>
 
 # AlvisAI
-Alvisai is a social networking web app with a built in bot. 
+Alvisai is a social networking web app with a built in bot.
 
 # Requirement
 
@@ -32,7 +32,7 @@ Alvisai is a social networking web app with a built in bot.
 **Step 5: Install Bot**
 
   - Go to `http://host/ai_box/ai/program_o/install/install_programo.php` where the host can be localhost or your website. Then the installation form will appear. Fill out this form and use "alvis_bot" as its database and other details according to your MySQL database. Finally, click on save.
-  
+
 
 # Notes
 
@@ -44,13 +44,13 @@ Alvisai is a social networking web app with a built in bot.
 
 **That's it! AlvisAI is alive now** :sparkles: :boom: :sparkles: :boom:
 
-# Contribution 
+# Contribution
 
 **Author**
 
 - [Raman Tehlan](https://ramantehlan.github.io/)
 
-Feel free to add your own features or improve any current feature, any kind of help is appreciated!
+This repository was archived on 20 July 2019, but you can still fork it and use it as you want.
 
 # License
 
@@ -66,7 +66,7 @@ This web app was designed and developed by me and was launched officially in **2
 That's when I decided to create a social network with artificial intelligence, a network which could understand your emotions and help you when you feel troubled about something, a network which could talk to you like a human; like a friend. This social network has features like anonymous updates and options to tag your emotions, which are specifically made for shy and depressed users. This app also learns to understand emotions by creating a network between the emotional tags used and then matching them with the kind of words and images they are updating.
 
 
-But unfortunately, my vision/app didn't get much response, not many people signed up for it and it did a crash landing. I later wrote a (private)document on what went wrong. It was my approach to the problem which didn't fit right. I had to learn it hard way. The irony is that after this I myself got a bit depressed and was disappointed, well I was 16 or 17 maybe and was too excited about this project, so disappointment was quite guaranteed. But I learned a lot and was quite happy and positive in the end. 
+But unfortunately, my vision/app didn't get much response, not many people signed up for it and it did a crash landing. I later wrote a (private)document on what went wrong. It was my approach to the problem which didn't fit right. I had to learn it hard way. The irony is that after this I myself got a bit depressed and was disappointed, well I was 16 or 17 maybe and was too excited about this project, so disappointment was quite guaranteed. But I learned a lot and was quite happy and positive in the end.
 
 
 #### What's in it for you
